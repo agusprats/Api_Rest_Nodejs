@@ -9,7 +9,7 @@ const {
     deleteProduct
 } = require('../controllers/products');
 
-console.log(products);
+//console.log(products);
 
 router.route("/")
     .get(getProducts)
